@@ -8,7 +8,7 @@ A Max/MSP patch for phylogenetic sonification
   
 This project was made possible by the Canada Council for the Arts
 
-Ongoing support for Future Ecologies comes from [our amazing patrons](https://www.futureecologies.net/patrons)
+Ongoing support for [Future Ecologies](https://www.futureecologies.net/) comes from [our amazing patrons](https://www.futureecologies.net/patrons)
 
 ## How can I hear it?
 - A finished sonification is available for download [here](https://thumbug.bandcamp.com/track/spiders-song-instrumental)
