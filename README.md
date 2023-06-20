@@ -7,6 +7,7 @@ A Max/MSP patch for phylogenetic sonification
 - Parameter mappings and ranges were fine-tuned to suit these data, but with some effort this patch may be adapted for other datasets, and perhaps even exploratory phylogenetic applications
   
 This project was made possible by the Canada Council for the Arts
+
 Ongoing support for Future Ecologies comes from [our amazing patrons](https://www.futureecologies.net/patrons)
 
 ## How can I hear it?
