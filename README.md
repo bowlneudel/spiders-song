@@ -3,11 +3,11 @@ A Max/MSP patch for phylogenetic sonification
 
 ## What is this?
 - This is an attempt to encode annotated phylogenetic data as music, using [Max/MSP](https://cycling74.com/products/max)
-- It was designed for a particular dataset: [Habronattus jumping spiders](https://doi.org/10.1111/evo.12109)
-- It was intended to highlight an evolutionary correlation between a single continuous characteristic (chiasmatic locus) and a single discrete characteristic (karyotype)
+- It was designed for a particular dataset: [Habronattus jumping spiders](https://doi.org/10.1111/evo.12109), and was intended to highlight an evolutionary correlation between a single continuous characteristic (chiasmatic locus) and a single discrete characteristic (karyotype)
 - Parameter mappings and ranges were fine-tuned to suit these data, but with some effort this patch may be adapted for other datasets, and perhaps even exploratory phylogenetic applications
-- This project was made possible by the Canada Council for the Arts
-- Ongoing support for Future Ecologies comes from [our amazing patrons](https://www.futureecologies.net/patrons)
+  
+This project was made possible by the Canada Council for the Arts
+Ongoing support for Future Ecologies comes from [our amazing patrons](https://www.futureecologies.net/patrons)
 
 ## How can I hear it?
 - A finished sonification is available for download [here](https://thumbug.bandcamp.com/track/spiders-song-instrumental)
