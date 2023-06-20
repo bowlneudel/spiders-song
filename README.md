@@ -69,7 +69,7 @@ Ongoing support for Future Ecologies comes from [our amazing patrons](https://ww
 ## Who worked on this?
 - This patch was built by [Mendel Skulski](https://www.futureecologies.net/), in collaboration and consultation with [Miriam Quick](https://miriamquick.com/), [Duncan Geere](https://www.duncangeere.com/), [Simon Overstall](http://www.simonlysander.net/), [Damien de Vienne](https://lbbe.univ-lyon1.fr/en/annuaire-des-membres/de-vienne-damien), and [Henri Boutin](https://www.ircam.fr/person/henri-boutin/)
 - [Damien de Vienne](https://lbbe.univ-lyon1.fr/en/annuaire-des-membres/de-vienne-damien) developed the python script to format standard phylogenetic data into JSON, and to output a tree vector graphic
-- [Simon Overstall](http://www.simonlysander.net/) created the drone bed using audio recordings of actual Habronattus jumping spider courtship songs, courtesy of [Damien Elias](https://nature.berkeley.edu/eliaslab/)
+- [Simon Overstall](http://www.simonlysander.net/) created the drone bed using audio of actual Habronattus jumping spider courtship songs, with recordings courtesy of [Damien Elias](https://nature.berkeley.edu/eliaslab/)
 - The data used were collected by [Wayne Maddison and Geneviève Leduc-Robert](https://doi.org/10.1111/evo.12109)
 - This project was inspired and enabled by the work of [Wayne Maddison](https://waynemaddisonlab.wordpress.com/): internationally renowned expert in biodiversity, phylogeny, & bioinformatics in general, and jumping spiders in particular
 
