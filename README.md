@@ -61,12 +61,12 @@ Ongoing support for [Future Ecologies](https://www.futureecologies.net/) comes f
 - 
 
 ## How are the phylogenetic data formatted?
-- https://github.com/damiendevienne/spidersong
 - An annotated Newick file is converted into JSON format, eg.
   - Tree
     - Branches (= lineages)
       - Nodes (= speciation points)
         - Characteristics
+- Using a [python script specifically designed for this phylogeny and character analysis](https://github.com/damiendevienne/spidersong)
 -  Branches are given a "Branch ID" — a numerical identifier describing their relative path through the tree for each of their nodes, as drawn
   - 0 = root
   - 1 = "lower" or "clockwise" descendent
