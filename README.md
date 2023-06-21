@@ -75,7 +75,7 @@ Ongoing support for [Future Ecologies](https://www.futureecologies.net/) comes f
 
 ### How is Branch ID used in the Max patch?
   - Nodes are each given a "Node ID" by appropriately truncating the Branch ID
-  - Therefore, nodes shared between different branches will all have identical Node IDs, while each Branch ID is unique
+  - Therefore, a node shared between different branches will always output an identical Node ID, while each Branch ID is unique
   - The least significant (latest) digit of a Node ID is used to apply the pitch interval rule
   - The Node ID is hashed to produce a short deterministic pseudorandom number (by default 1-12), used for repeatable timbral evolution
     - Hash_NodeID controls a routing matrix, determining which timbral parameter a single "mutation" value (an estimate of evolutionary distance) will affect.
