@@ -62,6 +62,23 @@ Ongoing support for [Future Ecologies](https://www.futureecologies.net/) comes f
 
 ## How are the phylogenetic data formatted?
 - https://github.com/damiendevienne/spidersong
+- An annotated Newick file is converted into JSON format, eg.
+  - Tree
+    - Branches (= lineages)
+      - Nodes (= speciation points)
+        - Characteristics
+-  Branches are given a "Branch ID" — a numerical identifier describing their relative path through the tree for each of their nodes, as drawn
+  - 0 = root
+  - 1 = "lower" or "clockwise" descendent
+  - 2 = "upper" or "counterclockwise" descendent
+  - The number of digits in a Branch ID is equal to the number of nodes in that branch
+
+### How is Branch ID used in the Max patch?
+  - Nodes are each given a "Node ID" by appropriately truncating the Branch ID
+  - Therefore, nodes shared between different branches will all have identical Node IDs, while each Branch ID is unique
+  - The least significant (latest) digit of a Node ID is used to apply the pitch interval rule
+  - The Node ID is hashed to produce a short deterministic pseudorandom number (by default 1-12), used for repeatable timbral evolution
+    - Hash_NodeID controls a routing matrix, determining which timbral parameter a single "mutation" value (an estimate of evolutionary distance) will affect.
 
 ## What externals do I need to make the Max/MSP patch work?
 - 
