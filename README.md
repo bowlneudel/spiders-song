@@ -39,7 +39,7 @@ Ongoing support for [Future Ecologies](https://www.futureecologies.net/) comes f
     - N.B These pitches are quantized to a given scale mode depending on other data *(so actual intervals are not always precisely +10st or -7st)*
     - N.B. The order of the arpeggio is arranged by pitch, depending on other data *(daughter notes are **not** necessarily played first or last)*
   - This pitch scheme was inspired by https://hal.science/hal-01893569/document
-- **Re-ordering of branches in the tree can have a profound effect on the tonal strucutre of the final sonification, and may be considered one of the biggest compositional opportunities**
+- ***Re-ordering of branches in the tree can have a profound effect on the tonal strucutre of the final sonification, and may be considered one of the biggest compositional opportunities***
 
 ### Discrete Characteristic: Karyotype
 - In this dataset, there are 4 karyotypes: X0, XX0, XXY, and XXXY
