@@ -67,14 +67,14 @@ Ongoing support for [Future Ecologies](https://www.futureecologies.net/) comes f
       - Nodes (= speciation points)
         - Characteristics
 - Using [a python script specifically designed for this phylogeny and character analysis](https://github.com/damiendevienne/spidersong)
-- In that script, Branches are given a "Branch ID" — a numerical identifier describing their relative path through the tree for each of their nodes, as drawn
+- In that script, branches are given a "Branch ID" — a numerical identifier describing their relative path through the tree for each of their nodes, as drawn
     - 0 = root
     - 1 = "lower" or "clockwise" descendent
     - 2 = "upper" or "counterclockwise" descendent
     - The number of digits in a Branch ID is equal to the number of nodes in that branch
 
 ### How is Branch ID used in the Max patch?
-  - Nodes are each given a "Node ID" by appropriately truncating the Branch ID
+  - At playback, nodes are each given a "Node ID" by appropriately truncating the Branch ID
   - Therefore, a node shared between different branches will always output an identical Node ID, while each Branch ID is unique
   - The least significant (latest) digit of a Node ID is used to apply the pitch interval rule
   - The Node ID is hashed to produce a short deterministic pseudorandom number (by default 1-12), used for repeatable timbral evolution
