@@ -67,11 +67,11 @@ Ongoing support for [Future Ecologies](https://www.futureecologies.net/) comes f
       - Nodes (= speciation points)
         - Characteristics
 - Using [a python script specifically designed for this phylogeny and character analysis](https://github.com/damiendevienne/spidersong)
--  Branches are given a "Branch ID" — a numerical identifier describing their relative path through the tree for each of their nodes, as drawn
-  - 0 = root
-  - 1 = "lower" or "clockwise" descendent
-  - 2 = "upper" or "counterclockwise" descendent
-  - The number of digits in a Branch ID is equal to the number of nodes in that branch
+- In that script, Branches are given a "Branch ID" — a numerical identifier describing their relative path through the tree for each of their nodes, as drawn
+    - 0 = root
+    - 1 = "lower" or "clockwise" descendent
+    - 2 = "upper" or "counterclockwise" descendent
+    - The number of digits in a Branch ID is equal to the number of nodes in that branch
 
 ### How is Branch ID used in the Max patch?
   - Nodes are each given a "Node ID" by appropriately truncating the Branch ID
