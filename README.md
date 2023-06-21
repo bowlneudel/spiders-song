@@ -83,6 +83,9 @@ Ongoing support for [Future Ecologies](https://www.futureecologies.net/) comes f
 ## What externals do I need to make the Max/MSP patch work?
 - [Vital](https://vital.audio/) (Free synthesizer VST)
 - [TreeWalker.vital](https://drive.google.com/file/d/1YHey1Kzh7xvlt6z0ItTpYUnW2aPrn4AO/view?usp=sharing) Vital patch
+- Audio files:
+  - Triangle samples
+  - Multi-channel drone 
 - Ease (Max/MSP External)
 - CNMAT (Max/MSP External)
 - ICST Ambisonics (Max/MSP External)
