@@ -78,7 +78,7 @@ Ongoing support for [Future Ecologies](https://www.futureecologies.net/) comes f
   - Therefore, a node shared between different branches will always output an identical Node ID, while each Branch ID is unique
   - The least significant (latest) digit of a Node ID is used to apply the pitch interval rule
   - The Node ID is hashed to produce a short deterministic pseudorandom number (by default 1-12), used for repeatable timbral evolution
-    - NodeID_Hash controls a routing matrix, determining which timbral parameter a single "mutation" value (an estimate of evolutionary distance) will affect.
+    - NodeID_Hash controls a routing matrix, determining which timbral parameter(s) a single "mutation" value (an estimate of evolutionary distance) will affect.
 
 ## What externals do I need to make the Max/MSP patch work?
 - 
