@@ -81,7 +81,11 @@ Ongoing support for [Future Ecologies](https://www.futureecologies.net/) comes f
     - NodeID_Hash controls a routing matrix, determining which timbral parameter(s) a single "mutation" value (an estimate of evolutionary distance) will affect.
 
 ## What externals do I need to make the Max/MSP patch work?
-- 
+- [Vital](https://vital.audio/) (Free synthesizer VST)
+- [TreeWalker.vital](https://drive.google.com/file/d/1YHey1Kzh7xvlt6z0ItTpYUnW2aPrn4AO/view?usp=sharing) Vital patch
+- Ease (Max/MSP External)
+- CNMAT (Max/MSP External)
+- ICST Ambisonics (Max/MSP External)
 
 ## Who worked on this?
 - This patch was built by [Mendel Skulski](https://www.futureecologies.net/), in collaboration and consultation with [Miriam Quick](https://miriamquick.com/), [Duncan Geere](https://www.duncangeere.com/), [Simon Overstall](http://www.simonlysander.net/), [Damien de Vienne](https://lbbe.univ-lyon1.fr/en/annuaire-des-membres/de-vienne-damien), and [Henri Boutin](https://www.ircam.fr/person/henri-boutin/)
