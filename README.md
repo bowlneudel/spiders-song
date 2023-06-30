@@ -135,7 +135,7 @@ Ongoing support for [Future Ecologies](https://www.futureecologies.net/) comes f
 - Both the JSON-formatting python script and Max/MSP patch would need to be redesigned for use with characteristics other than Karyotype and Chiasmatic locus, i.e. generalizability
 
 - The clock (ticking from one node to the next along each branch, and then to the next branch) is occasionally buggy
-  - Timing between the branch pairs is not always identical when it should be, sometimes restarting at the root slightly late or with unaligned synth parameters
+  - Timing between the branch pairs is not always identical when it should be, sometimes restarting at the root slightly late or with misaligned synth parameters
   - Perhaps switching to signal-based timing (vs event-based) could improve this, but would require a radical redesign
   - Other improvements may be had by exploring the Max/MSP external Odot
 
