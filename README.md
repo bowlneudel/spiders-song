@@ -24,7 +24,7 @@ Ongoing support for [Future Ecologies](https://www.futureecologies.net/) comes f
 - Each lineage is given a "voice", expressing a series of notes at each point of speciation
 - To avoid excessive concurrent sound, lineages are sonified in pairs (based on the order as drawn in the tree)
 - Playback begins at the root of the tree. Each cycle concludes at the leaves, pauses, and then restarts at the root with the next pair of lineages
-- Branch length is scaled to the time duration between speciation events
+- Branch length (i.e. the rest between points of speciation, or nodes) is scaled to the estimated evolutionary distance between speciation events
   - N.B. This scaling may be non-linear, so lineage duration is often non-ultraparametric *(one lineage will usually conclude before the other)*
 - By default, lineage pairs start at (1) and (n/2+1), continue in order as drawn, and conclude at (n/2) and (n)
 - While a given pair of lineages shares common ancestry, all parameters should be identical for both, and therefore *should* sound together as one voice (although the timing is sometimes slightly buggy)
@@ -41,7 +41,7 @@ Ongoing support for [Future Ecologies](https://www.futureecologies.net/) comes f
     - N.B These pitches are quantized to a given scale mode depending on other data *(so actual intervals are not always precisely +10st or -7st)*
     - N.B. The order of the arpeggio is arranged by pitch, depending on other data *(daughter notes are **not** necessarily played first or last)*
   - This pitch scheme was inspired by https://hal.science/hal-01893569/document
-- ***Re-ordering of branches in the tree can have a profound effect on the tonal strucutre of the final sonification, and may be considered one of the biggest "compositional" opportunities***
+- ***Re-ordering of branches in the tree can have a profound effect on the tonal structure of the final sonification, and may be considered one of the biggest "compositional" opportunities***
 
 ### Discrete Characteristic: Karyotype
 - In this dataset, there are 4 karyotypes: X0, XX0, XXY, and XXXY
@@ -105,7 +105,7 @@ Ongoing support for [Future Ecologies](https://www.futureecologies.net/) comes f
 ### How is Branch ID used in the Max patch?
   - At playback, nodes are each given a "Node ID" by appropriately truncating the Branch ID
   - Therefore, a node shared between different branches will always output an identical Node ID, while each Branch ID is unique
-  - The least significant (latest) digit of a Node ID is used to apply the pitch interval rule
+  - The least significant (latest, last) digit of a Node ID is used to apply the pitch interval rule
   - The Node ID is hashed to produce a short deterministic pseudorandom number (by default 1-12), used for repeatable timbral evolution
     - NodeID_Hash controls a routing matrix, determining which timbral parameter(s) a single "mutation" value (an estimate of evolutionary distance) will affect.
 
