@@ -45,7 +45,7 @@ Ongoing support for [Future Ecologies](https://www.futureecologies.net/) comes f
 
 ### Discrete Characteristic: Karyotype
 - In this dataset, there are 4 karyotypes: X0, XX0, XXY, and XXXY
-- These are mapped to two parameters:
+- These are mapped to two parameters with discrete states:
   - Quantized scale mode (by default: Mixolydian, Minor Pentatonic, Aeolian, and Lydian, respectively), and
   - Arpeggio pattern, i.e. pitch value order (by default: 1324, 1234, 4321, 4231, with 1 being the lowest pitch and 4 being the highest)
 - In addition, the evolution of a neo-Y chromosome is signaled as the sound of a triangle *just before* the species node where it is calculated to first appear
@@ -53,7 +53,7 @@ Ongoing support for [Future Ecologies](https://www.futureecologies.net/) comes f
 ### Continuous Characteristic: Chiasmatic locus
 - The location of the chiasma along the chromosome may be distal (near the tip) or proximal (near the middle)
 - Measurement data per species include the Mean, Median, and Variance
-- The Mean value is mapped to the length of the amplitude envelope (Attack/Decay/Release stages)
+- The Mean value is mapped to the length of the amplitude envelope (Attack/Decay/Release stages) which may be continuous within a range
   - Distal chiasmata result in plucky notes
   - Proximal chiasmata result in swelling notes
 - The Median value is mapped to both the power of the Attack/Decay/Release (logarithmic to exponatial), and to the sustain duration
