@@ -144,7 +144,7 @@ Ongoing support for [Future Ecologies](https://www.futureecologies.net/) comes f
   - Perhaps switching to signal-based timing (vs event-based) could improve this, but would require a radical redesign
   - Other improvements may be had by exploring the capabilities of the Max/MSP external Odot
 
-- The sonification must be played start to finish, and cannot currently start from any given branch
+- The sonification must be played start to finish, and cannot currently start from any given branch (another issue of clock design)
 
 - All synthesis is handled by 2 VST instances of Vital
   - Vital was chosen for its built-in polyphony, plus its deep configurability and modulation matrix, at some cost of CPU cycles
