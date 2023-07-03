@@ -134,6 +134,11 @@ Ongoing support for [Future Ecologies](https://www.futureecologies.net/) comes f
 ## KNOWN ISSUES
 - Both the JSON-formatting python script and Max/MSP patch would need to be redesigned for use with characteristics other than Karyotype and Chiasmatic locus, i.e. generalizability
 
+- Only species with complete characteristic data were used for sonification, trimming the dataset from 140 species down to 44
+  - We did not consider how to sonify gaps in the data
+  
+- Simulated extinct lineages were not considered for this sonification
+
 - The clock (ticking from one node to the next along each branch, and then to the next branch) is occasionally buggy
   - Timing between the branch pairs is not always identical when it should be, sometimes restarting at the root slightly late or with misaligned synth parameters
   - Perhaps switching to signal-based timing (vs event-based) could improve this, but would require a radical redesign
