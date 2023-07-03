@@ -142,10 +142,10 @@ Ongoing support for [Future Ecologies](https://www.futureecologies.net/) comes f
 - The sonification must be played start to finish, and cannot currently start from any given branch
 
 - All synthesis is handled by 2 VST instances of Vital
-  - Vital was chosen for its built-in polyphony, plus its deep configurability and modulation matrix, at the cost of CPU cycles
+  - Vital was chosen for its built-in polyphony, plus its deep configurability and modulation matrix, at some cost of CPU cycles
   - For better portability and efficiency, using native Max/MSP synthesis would be nice
 
-- Ambisonic positioning in this patch is handled externally: using SPAT in Ableton Live, with parameters modulated via MIDI CC
+- All output is multi-channel and spatialization is handled externally (using SPAT in Ableton Live, with parameters modulated via MIDI CC)
   - Each branch voice, triangle, and drone element (mono exciter, stereo resonator, and stereo re-resonator) is output as separate multi-channel audio
   - This choice was made to record audio and spatilization parameters for both 4DSOUND and ambisonics simultaneously, and to allow for multi-track mix flexibility
   - Similar spatialization would be possible using ICST Ambisonics natively in the Max Patch, mixing down directly to stereo output
