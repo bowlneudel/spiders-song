@@ -137,7 +137,7 @@ Ongoing support for [Future Ecologies](https://www.futureecologies.net/) comes f
 - The clock (ticking from one node to the next along each branch, and then to the next branch) is occasionally buggy
   - Timing between the branch pairs is not always identical when it should be, sometimes restarting at the root slightly late or with misaligned synth parameters
   - Perhaps switching to signal-based timing (vs event-based) could improve this, but would require a radical redesign
-  - Other improvements may be had by exploring the Max/MSP external Odot
+  - Other improvements may be had by exploring the capabilities of the Max/MSP external Odot
 
 - The sonification must be played start to finish, and cannot currently start from any given branch
 
