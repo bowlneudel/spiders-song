@@ -138,6 +138,8 @@ Ongoing support for [Future Ecologies](https://www.futureecologies.net/) comes f
   - We did not consider how to sonify gaps in the data
   
 - Simulated extinct lineages were not considered for this sonification
+  
+- Introgressions were not considered for this sonification
 
 - The clock (ticking from one node to the next along each branch, and then to the next branch) is occasionally buggy
   - Timing between the branch pairs is not always identical when it should be, sometimes restarting at the root slightly late or with misaligned synth parameters
