@@ -113,7 +113,7 @@ Ongoing support for [Future Ecologies](https://www.futureecologies.net/) comes f
 - [Vital](https://vital.audio/) (Free synthesizer VST)
 - [TreeWalker.vital](https://drive.google.com/file/d/1YHey1Kzh7xvlt6z0ItTpYUnW2aPrn4AO/view?usp=sharing) Vital patch
 - Audio files:
-  - Triangle samples
+  - [Triangle samples](https://drive.google.com/drive/folders/1IY_8JxXPBpwwPJDFzy2PzOoZtZiQKdPX?usp=sharing)
   - Multi-channel drone
 - Tree vector graphic (generated alongside JSON by [this script](https://github.com/damiendevienne/spidersong))
 - Ease (Max/MSP External)
