@@ -5,6 +5,9 @@ A Max/MSP patch for phylogenetic sonification
 - This is an attempt to encode annotated phylogenetic data as music, using [Max/MSP](https://cycling74.com/products/max)
 - It was designed for a particular dataset: [Habronattus jumping spiders](https://doi.org/10.1111/evo.12109), and was intended to highlight an evolutionary correlation between a single continuous characteristic (chiasmatic locus) and a single discrete characteristic (karyotype)
 - Parameter mappings and ranges were fine-tuned to suit these data, but with some effort this patch may be adapted for other datasets, and perhaps even exploratory phylogenetic applications
+
+## Who is it for?
+- This sonification system is intended as an experimental platform for evolutionary biologists to explore and communicate their data through sound, and for musicians to take inspiration from biodiversity.
   
 This project was made possible by the Canada Council for the Arts
 
