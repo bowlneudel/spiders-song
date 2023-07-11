@@ -150,6 +150,8 @@ Ongoing support for [Future Ecologies](https://www.futureecologies.net/) comes f
 
 - The sonification must be played start to finish, and cannot currently start from any given branch (another issue of clock design)
 
+- Lineage duration is not ultraparametric without careful settings see: [Time/playback](#time)
+
 - All synthesis is handled by 2 VST instances of Vital
   - Vital was chosen for its built-in polyphony, plus its deep configurability and modulation matrix, at some cost of CPU cycles
   - For better portability and efficiency, using native Max/MSP synthesis would be nice
