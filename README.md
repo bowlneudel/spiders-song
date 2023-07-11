@@ -15,7 +15,7 @@ Ongoing support for [Future Ecologies](https://www.futureecologies.net/) comes f
 
 ## How can I hear it?
 - A finished sonification is available for download [here](https://thumbug.bandcamp.com/track/spiders-song-instrumental)
-- The story behind this project is a 2-part podcast from Future Ecologies, available [here](https://www.futureecologies.net/listen/fe-5-1-spiders-song)
+- The story behind this project is a 2-part podcast from Future Ecologies and featuring Dr. Wayne Maddison, available [here](https://www.futureecologies.net/listen/fe-5-1-spiders-song)
 - An illustrated, plain language explanation of the parameter mappings is available [here](https://www.futureecologies.net/listen/fe-5-1-spiders-song#explanation)
 - And a video of the patch in action is [here](https://www.youtube.com/watch?v=Z8c7rvGrNko)
 
