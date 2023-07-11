@@ -150,7 +150,7 @@ Ongoing support for [Future Ecologies](https://www.futureecologies.net/) comes f
 
 - The sonification must be played start to finish, and cannot currently start from any given branch (another issue of clock design)
 
-- Lineage duration is not ultraparametric without careful settings see: [Time/playback](##time--playback)
+- Lineage duration is not ultraparametric without careful settings see: [Time/playback](https://github.com/bowlneudel/spiders-song/blob/main/README.md#time--playback))
 
 - All synthesis is handled by 2 VST instances of Vital
   - Vital was chosen for its built-in polyphony, plus its deep configurability and modulation matrix, at some cost of CPU cycles
